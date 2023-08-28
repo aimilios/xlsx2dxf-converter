@@ -24,7 +24,8 @@ Input Data:
 | PLC1          |   Delta PLC <br> DVP-DVP-SA2  |Main <br> PLC|
 
 Output File:
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![output2](https://github.com/aimilios/xlsx2dxf-converter/assets/7573375/cea1aa15-9783-4fdf-a38c-4e416ae01098)
+
 ## Usage/Examples
 
 To use the xlsx2dxf_converter, follow these steps:
