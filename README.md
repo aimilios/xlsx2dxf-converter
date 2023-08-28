@@ -17,8 +17,6 @@ Input Data:
 | RS485+       | right          |0|
 | RS485-       | right          |1|
 
-
-
 | Block Label  | Block Model  |Block Comment|
 |--------------|----------------|----------------|
 | PLC1          |   Delta PLC <br> DVP-DVP-SA2  |Main <br> PLC|
@@ -26,7 +24,27 @@ Input Data:
 Output File:
 ![output2](https://github.com/aimilios/xlsx2dxf-converter/assets/7573375/cea1aa15-9783-4fdf-a38c-4e416ae01098)
 
-## Usage/Examples
+# Example-2
+Input Data:
+
+| Port Name    | Position       | Position Index|
+|--------------|----------------|----------------|
+| 1:5V             | left |0|
+| 2:5V             | left |1|
+| 4:Rx             | left |2|
+| 5:Tx             | left |3|
+| 8:GND            | left |4|
+| RS485+       | right          |0|
+| RS485-       | right          |1|
+
+| Block Label  | Block Model  |Block Comment|
+|--------------|----------------|----------------|
+| VFD23          |   Teco L510 <br> 210-SH1F-P 0.75kW  |Main <br> Inverter <br> nRollers|
+
+Output File:
+![output1](https://github.com/aimilios/xlsx2dxf-converter/assets/7573375/4ca67ad9-fa87-4906-8ba4-77081c7e6960)
+
+## Usage
 
 To use the xlsx2dxf_converter, follow these steps:
 
