@@ -17,14 +17,14 @@ Input Data:
 | RS485+       | right          |0|
 | RS485-       | right          |1|
 
+
+
 | Block Label  | Block Model  |Block Comment|
 |--------------|----------------|----------------|
-| PLC1          |   Delta PLC  |Main PLC|
+| PLC1          |   Delta PLC <br> sd  |Main PLC|
 
-Output File:  
-
+Output File:
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
 ## Usage/Examples
 
 To use the xlsx2dxf_converter, follow these steps:
@@ -51,12 +51,14 @@ To run from the terminal, navigate to the script's directory an run the command:
 * group_name: The group name of the xlsx file.
 * dxf_filename: Output dxf file name.
 
-Example-1:
-   ```
-    python xlsx2dxf_converter.py "Blocks\Teco L510.xlsx" "power" "VFD23" "Teco L510\n210-SH1F-P 0.75kW" "Main\nInverter\nRollers" "output.dxf"
-   ```
-Example-2:
+- Example-1:
    ```   
    python xlsx2dxf_converter.py "Blocks\Delta DVP12SA2.xlsx" "communication_all" "PLC1" "Delta PLC\nDVP-DVP-SA2" "Main\nPLC" "output2.dxf"
    ```
+   
+- Example-2:
+   ```
+    python xlsx2dxf_converter.py "Blocks\Teco L510.xlsx" "power" "VFD23" "Teco L510\n210-SH1F-P 0.75kW" "Main\nInverter\nRollers" "output.dxf"
+   ```
+
 4. **Run Using the GUI**:
