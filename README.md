@@ -17,14 +17,13 @@ Input Data:
 | RS485+       | right          |0|
 | RS485-       | right          |1|
 
-
-
 | Block Label  | Block Model  |Block Comment|
 |--------------|----------------|----------------|
 | PLC1          |   Delta PLC  |Main PLC|
 
 Output File:
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
 ## Usage/Examples
 
 To use the xlsx2dxf_converter, follow these steps:
