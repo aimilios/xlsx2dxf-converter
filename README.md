@@ -55,7 +55,7 @@ Example-1:
     python xlsx2dxf_converter.py "Blocks\Teco L510.xlsx" "power" "VFD23" "Teco L510\n210-SH1F-P 0.75kW" "Main\nInverter\nRollers" "output.dxf"
 ```
 Example-2:
-```   
+   ```   
    python xlsx2dxf_converter.py "Blocks\Delta DVP12SA2.xlsx" "communication_all" "PLC1" "Delta PLC\nDVP-DVP-SA2" "Main\nPLC" "output2.dxf"
 ```
 4. **Run Using the GUI**:
