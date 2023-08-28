@@ -21,7 +21,7 @@ Input Data:
 
 | Block Label  | Block Model  |Block Comment|
 |--------------|----------------|----------------|
-| PLC1          |   Delta PLC <br> sd  |Main PLC|
+| PLC1          |   Delta PLC <br> DVP-DVP-SA2  |Main <br> PLC|
 
 Output File:
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
