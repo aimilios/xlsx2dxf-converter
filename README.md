@@ -60,7 +60,7 @@ For example:
 
 
 
-## Usage/Examples
+## Usage
 
 To use the xlsx2dxf_converter, follow these steps:
 
@@ -96,6 +96,17 @@ To run from the terminal, navigate to the script's directory an run the command:
    ```
     python xlsx2dxf_converter.py "Blocks\Teco L510.xlsx" "power" "VFD23" "Teco L510\n210-SH1F-P 0.75kW" "Main\nInverter\nRollers" "output.dxf"
    ```
+3. **Run Using the GUI**:
+    Execute the script `xlsx2dxf_gui.py1. The dialog window has the following widgets:
+- **Reload Button**: Whenever you modify and save an XLSX file, it's essential to click the reload button. This action ensures that the changes take effect.
+- **Categories**: This widget enables you to select a category. Categories within the XLSX file can be any word. To maintain consistency, it is recommended to implement a validation list rule in the `Block Template.xlsx` file. This ensures uniformity when duplicating the template to generate a new block XLSX.
+- **Group Name**: Select the desired group name.
+- **Block Label**: Add the label for the block.
+- **Block Model**: Add the comment for the block . The reason that this is different from the block name,its because multiple part models can be represented by the same block.
+- **Block Comment**: A comment that describes the block.
+ 
+
+## Example Circuits Created
 
 
 
