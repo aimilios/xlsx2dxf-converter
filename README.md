@@ -55,7 +55,9 @@ In many cases, an electrical block can have multiple representations based on th
 
 For example:
 
-![groups explanation](https://github.com/aimilios/xlsx2dxf-converter/assets/7573375/beeab440-6516-49a1-87c8-5185d27afe2d)
+![groups explanation](https://github.com/aimilios/xlsx2dxf-converter/assets/7573375/0ebb8845-bbb7-411e-b155-740e866355b9)
+
+
 
 ## Usage/Examples
 
