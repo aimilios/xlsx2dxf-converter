@@ -47,10 +47,15 @@ Output File:
 
 
 ## Script Objective
-When designing an electrical block,whichit's often a one-time task,you can later reuse the block across various schematics. Yet when you want to insert the block some text properties must be edited such as the Block Label,Model or Comment. Conventionally, the solution is to duplicate the block, make edits, and then create a new block.
+When designing an electrical block,which is often a one-time task,you can later reuse the block across various circuits. Yet when you want to insert the block some text properties must be edited such as the Block Label,Model or Comment. Conventionally, the solution is to duplicate the block, make edits, and then create a new block.
 
 To address this challenge, the `xlsx2dxf_converter.py` script comes into play, streamlining the task of modifying and reusing blocks. Additionally, a more user-friendly alternative is provided through the `xlsx2dxf_gui.py` script, which offers a GUI interface using the core functionality of `xlsx2dxf_converter.py`.
 
+In many cases, an electrical block can have multiple representations based on the specific circuit type. For instance, in a power circuit, you might only need power-related ports, while in a communication circuit, you may focus solely on communication ports. To change between various represantation you use the `Group Name` property within the associated XLSX file. There is also the `Block Category` optional property which makes it easier to find the target block using the GUI.
+
+For example:
+
+![groups explanation](https://github.com/aimilios/xlsx2dxf-converter/assets/7573375/beeab440-6516-49a1-87c8-5185d27afe2d)
 
 ## Usage/Examples
 
@@ -58,8 +63,9 @@ To use the xlsx2dxf_converter, follow these steps:
 
 1. **Prerequisites**: Ensure you have Python installed on your system and also the following Python modules installed:
 
-- **ezdxf** (version '0.18.1')
-- **openpyxl** (version '3.0.10')
+- **ezdxf**
+- **openpyxl**
+- **PyQt5** (only required if you intend to use the GUI script)
 
 2. **Setup**:
    - Create a folder named `Blocks` in the same directory as the script.
