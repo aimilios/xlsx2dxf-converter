@@ -106,9 +106,6 @@ To run from the terminal, navigate to the script's directory an run the command:
 - **Block Comment**: A comment that describes the block.
  
 
-## Example Circuits Created
-
-
 
 
 
