@@ -22,6 +22,7 @@ Input Data:
 | PLC1          |   Delta PLC <br> DVP-DVP-SA2  |Main <br> PLC|
 
 Output File:
+
 ![output2](https://github.com/aimilios/xlsx2dxf-converter/assets/7573375/cea1aa15-9783-4fdf-a38c-4e416ae01098)
 
 # Example-2
@@ -38,10 +39,13 @@ Input Data:
 
 | Block Label  | Block Model  |Block Comment|
 |--------------|----------------|----------------|
-| VFD23          |   Teco L510 <br> 210-SH1F-P 0.75kW  |Main <br> Inverter <br> nRollers|
+| VFD23          |   Teco L510 <br> 210-SH1F-P 0.75kW  |Main <br> Inverter <br> Rollers|
 
 Output File:
+
 ![output1](https://github.com/aimilios/xlsx2dxf-converter/assets/7573375/4ca67ad9-fa87-4906-8ba4-77081c7e6960)
+
+
 ## Script Objective
 When designing an electrical block,whichit's often a one-time task,you can later reuse the block across various schematics. Yet when you want to insert the block some text properties must be edited such as the Block Label,Model or Comment. Conventionally, the solution is to duplicate the block, make edits, and then create a new block.
 
